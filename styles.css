@@ -1,0 +1,101 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c2f34;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Caja de login */
+.login-box {
+    background-color: #1c1e22;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8);
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Asegura que todo el texto esté centrado */
+    border: 2px solid #9bc74b;
+    transition: all 0.3s ease;
+}
+
+/* Logo Platzi */
+.platzi-logo {
+    width: 250px; /* Ajusta el tamaño si es necesario */
+    margin: 0 auto 20px auto;
+    display: block;
+    background-color: #1c1e22;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+/* Título y texto */
+h2 {
+    color: #fcfbfa;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #b3b3b3;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #33363a;
+    border: none;
+    color: #fcfbfa;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center; /* Centra el texto dentro de los inputs */
+}
+
+/* Botón de login */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #9bc74b;
+    border: none;
+    color: #1c1e22;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #86b03e;
+    transform: scale(1.05);
+}
+
+/* Mensaje de advertencia */
+.warning-text {
+    color: #fcfbfa;
+    font-size: 14px;
+    margin-top: 15px;
+    transition: color 0.3s ease;
+}
+
+/* Animaciones */
+.login-box:hover .warning-text {
+    color: #ff4500;
+}
